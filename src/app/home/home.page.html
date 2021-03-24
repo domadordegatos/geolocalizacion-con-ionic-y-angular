@@ -1,7 +1,7 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" mode="ios">
   <ion-toolbar>
     <ion-title>
-      Blank
+      GEOLOCALIZACION MAPS GOOGLE
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -17,4 +17,9 @@
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+
+  <ion-button (click)="solicitar()" expand="block" shape="round">
+    Solicitar localizacion
+  </ion-button>
 </ion-content>
+
